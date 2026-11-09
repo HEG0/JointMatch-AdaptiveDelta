@@ -1,0 +1,12 @@
+# Same pins as the original JointMatch repo, minus packages the code no longer needs
+# (torchmetrics and tweet_preprocessor were removed; scipy was added for the significance tests).
+# Install PyTorch separately first, e.g.:  conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
+matplotlib==3.5.3
+nlpaug==1.1.11
+nltk==3.7
+numpy==1.21.5
+pandas==1.3.5
+scikit_learn==1.0.2
+scipy>=1.7
+seaborn==0.13.0
+transformers==4.22.2

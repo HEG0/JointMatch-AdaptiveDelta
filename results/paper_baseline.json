@@ -1,0 +1,7 @@
+{
+  "_note": "Reference numbers from the JointMatch paper (fixed delta = 0.9, AG News). Verify against the paper's main results table and edit; set std/F1 to null if you do not have them. make_figures.py draws this as a dashed line and as a row in results_table.tex.",
+  "acc_mean": 88.39,
+  "acc_std": null,
+  "f1_mean": null,
+  "f1_std": null
+}

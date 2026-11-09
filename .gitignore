@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+slurm_logs/
+# model checkpoints are large; result CSVs / figures are small and are kept
+*.pth
+ckpt/
+code/experiment_smoke/
+.DS_Store

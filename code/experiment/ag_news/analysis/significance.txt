@@ -1,0 +1,14 @@
+Paired tests across seeds (same seed = same labeled subset). With few seeds these tests have low power;
+treat p-values as indicative only.
+
+paper_fixed vs adaptive_ema | test_acc | n=5 | mean diff (a-b) = +0.189 | paired t-test p=0.776 | Wilcoxon p=0.625
+paper_fixed vs adaptive_ema | test_f1 | n=5 | mean diff (a-b) = +0.249 | paired t-test p=0.719 | Wilcoxon p=0.625
+paper_fixed vs adaptive_inverse | test_acc | n=5 | mean diff (a-b) = +0.776 | paired t-test p=0.335 | Wilcoxon p=0.625
+paper_fixed vs adaptive_inverse | test_f1 | n=5 | mean diff (a-b) = +0.776 | paired t-test p=0.329 | Wilcoxon p=0.625
+adaptive_ema vs adaptive_inverse | test_acc | n=5 | mean diff (a-b) = +0.587 | paired t-test p=0.125 | Wilcoxon p=0.125
+adaptive_ema vs adaptive_inverse | test_f1 | n=5 | mean diff (a-b) = +0.526 | paired t-test p=0.180 | Wilcoxon p=0.125
+
+One-sample t-test of each variant's accuracy against the paper mean (88.39); indicative only:
+paper_fixed | mean 87.35 | p=0.017
+adaptive_ema | mean 87.16 | p=0.216
+adaptive_inverse | mean 86.57 | p=0.106

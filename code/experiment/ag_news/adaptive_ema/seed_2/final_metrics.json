@@ -1,0 +1,37 @@
+{
+  "variant": "adaptive_ema",
+  "seed": 2,
+  "test_acc": 0.8818421052631579,
+  "test_f1": 0.8818709032969279,
+  "test_acc_nets": [
+    0.8786842105263157,
+    0.8801315789473684
+  ],
+  "test_f1_nets": [
+    0.8786515515559559,
+    0.8802758552034285
+  ],
+  "test_net_disagree_rate": 0.03394736842105263,
+  "best_step": 625,
+  "best_dev_acc": 0.8795,
+  "last_step": 875,
+  "stopped_early": true,
+  "delta_at_best_step": 0.8572821093076405,
+  "delta_mean_until_best": 0.8413200870595312,
+  "delta_mean_all": 0.8449607515907048,
+  "delta_at_last_step": 0.8571889890481905,
+  "train_time_sec": 27540.3,
+  "device": "cpu",
+  "test_acc_cw": [
+    0.831,
+    0.978,
+    0.853,
+    0.866
+  ],
+  "class_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ]
+}

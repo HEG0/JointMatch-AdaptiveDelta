@@ -1,0 +1,2 @@
+variant,n_seeds,seeds,acc_mean,acc_std,f1_mean,f1_std
+adaptive_ema,5,"[0, 1, 2, 3, 4]",87.1578947368421,1.6799081560437719,87.1133238274847,1.7389371987989315
