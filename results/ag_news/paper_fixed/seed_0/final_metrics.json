@@ -1,0 +1,37 @@
+{
+  "variant": "paper_fixed",
+  "seed": 0,
+  "test_acc": 0.8740789473684211,
+  "test_f1": 0.8740914924495321,
+  "test_acc_nets": [
+    0.8707894736842106,
+    0.8735526315789474
+  ],
+  "test_f1_nets": [
+    0.8710828086233113,
+    0.8731288960426905
+  ],
+  "test_net_disagree_rate": 0.03881578947368421,
+  "best_step": 275,
+  "best_dev_acc": 0.872375,
+  "last_step": 525,
+  "stopped_early": true,
+  "delta_at_best_step": 0.9,
+  "delta_mean_until_best": 0.9000000000000002,
+  "delta_mean_all": 0.9000000000000002,
+  "delta_at_last_step": 0.9,
+  "train_time_sec": 1518.3,
+  "device": "NVIDIA A100-PCIE-40GB",
+  "test_acc_cw": [
+    0.847,
+    0.976,
+    0.854,
+    0.82
+  ],
+  "class_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ]
+}
