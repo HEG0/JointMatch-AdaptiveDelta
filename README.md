@@ -37,7 +37,24 @@ This rule is a design choice, not something from the paper, and it has not been 
 | `paper_fixed` | constant 0.9 (the paper; use it as your control) |
 
 ## Setup
+this is for windows:
+conda create -n jointmatch python=3.8 -y
+conda activate jointmatch
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
+pip install -r requirements.txt
+python code\setup_offline.py
 
+# 1. Check the install
+Set-Location code
+python smoke_test.py
+
+# 2. Run the experiments (from inside code)
+python panel_main.py --variant adaptive_ema
+python panel_main.py --variant paper_fixed
+python panel_main.py --variant adaptive_ema --seeds 3    # single seed only
+
+# 4. Figures and tables (from inside code)
+python make_figures.py
 ```bash
 conda create -n jointmatch python=3.8 -y && conda activate jointmatch
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch     # pick a CUDA build if you have a GPU
